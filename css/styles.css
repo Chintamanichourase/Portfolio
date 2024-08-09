@@ -65,7 +65,10 @@ header {
     animation-timing-function: ease;
     animation-duration: 0.75s;
 }
-
+.project-image img{
+    max-width: 300px;
+    max-height: 300px;
+}
 header ul {
     display: inline-block;
     background: #0b0b0b;
@@ -466,10 +469,13 @@ footer {
     padding: 50px 15px 20px 15px;
     border-bottom: 1px solid #dcd9d9;
     text-align: center;
+    /* background-color: #f4eff0; */
+    
+    background-image: url('../images/education.jpg');
+    
 }
-
 #education h2 {
-    color: #f4f5f6;
+    color: #ed2450;
     margin-bottom: 50px;
 }
 
@@ -477,8 +483,9 @@ footer {
     max-width: 700px;
     margin: 0 auto 30px auto;
     padding: 15px;
-    border: 1px solid #dcd9d9;
+    border: 5px solid #eceaea;
     text-align: left;
+    background-color: #00000068;
 }
 
 .education-block h3 {
@@ -494,7 +501,7 @@ footer {
 }
 
 .education-block h4 {
-    color: #7fc9e9;
+    color: #aecef1;
     clear: both;
     font-weight: 500;
     margin: 0 0 15px 0;
@@ -503,7 +510,7 @@ footer {
 .education-block p,
 .education-block ul {
     margin: 0;
-    color: #bebac0;
+    color: #fefcff;
     font-size: 0.9em;
 }
 
@@ -588,8 +595,8 @@ footer {
     display: inline-block;
     margin: 7px;
     padding: 5px 10px;
-    color: white;
-    background: #2c2e38;
+    color: rgb(17, 17, 17);
+    background: #8585f1;
     list-style: none;
     cursor: default;
     font-size: 1.2em;
@@ -610,6 +617,7 @@ footer {
 #contact-form {
     max-width: 500px;
     margin: 0 auto;
+    border: #eae4e4;
 }
 
 #contact-form input,
@@ -620,14 +628,14 @@ footer {
     border-radius: 4px;
     border: none;
     margin-bottom: 10px;
-    background: #2f2e2e;
+    background: #c6c3c3;
     color: #fff;
     transition: 0.5s ease all;
 }
 
 #contact-form input::-webkit-input-placeholder,
 #contact-form textarea::-webkit-input-placeholder {
-    color: #fff;
+    color: #545558;
 }
 
 #contact-form input:-moz-placeholder,
